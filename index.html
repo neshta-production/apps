@@ -3,23 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Neshta Apps</title>
+  <title>Apps by Neshta Production</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="page apps-page">
-    <section class="apps-hero">
+    <section class="apps-hero" aria-labelledby="apps-title">
       <p class="eyebrow">Neshta Production</p>
-      <h1>Apps</h1>
-      <p class="lede">A small collection of mobile apps for reflection, learning, and everyday curiosity.</p>
+      <h1 id="apps-title">List of Apps</h1>
+      <p class="lede">Mobile projects by Neshta Production. Each app has its own short description and legal links for App Store and Google Play review.</p>
     </section>
 
     <section class="apps-grid" aria-label="Projects">
       <article class="app-card app-card-tarot">
-        <img class="app-icon" src="assets/ai-tarot-icon.png" alt="AI Tarot app icon">
+        <div class="icon-frame">
+          <img class="app-icon" src="assets/ai-tarot-icon.png" alt="AI Tarot app icon">
+        </div>
         <div class="app-copy">
+          <p class="app-label">Entertainment</p>
           <h2>AI Tarot</h2>
-          <p>Tarot-inspired readings, card spreads, and AI-generated interpretations for self-reflection and entertainment.</p>
+          <p>AI-powered tarot readings with card spreads, personal questions, reading history, and subscription access to extended features.</p>
           <div class="app-links">
             <a href="ai_tarot/privacy_policy/">Privacy Policy</a>
             <a href="ai_tarot/terms_of_use/">Terms of Use</a>
@@ -28,10 +31,13 @@
       </article>
 
       <article class="app-card app-card-buslik">
-        <img class="app-icon" src="assets/buslik-belmova-icon.svg" alt="Buslik BelMova app icon">
+        <div class="icon-frame">
+          <img class="app-icon" src="assets/buslik-belmova-icon.svg" alt="Buslik BelMova app icon">
+        </div>
         <div class="app-copy">
+          <p class="app-label">Education</p>
           <h2>Buslik BelMova</h2>
-          <p>A child-friendly educational app for learning Belarusian letters, words, and simple vocabulary.</p>
+          <p>A child-friendly learning app for Belarusian letters, words, vocabulary practice, and simple language activities.</p>
           <div class="app-links">
             <a href="buslik-bel-mova.html">Privacy Policy and Terms of Use</a>
           </div>
