@@ -131,6 +131,13 @@ p {
   background: rgba(28, 23, 30, 0.82);
 }
 
+.app-card-suzorje {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(80, 213, 255, 0.18), transparent 16rem),
+    radial-gradient(circle at 90% 100%, rgba(239, 76, 167, 0.18), transparent 18rem),
+    rgba(24, 22, 52, 0.86);
+}
+
 .icon-frame {
   width: 96px;
   height: 96px;
@@ -177,6 +184,10 @@ p {
   color: #ffb39c;
 }
 
+.app-card-suzorje .app-label {
+  color: #72d8ff;
+}
+
 .app-links {
   display: flex;
   flex-wrap: wrap;
@@ -200,6 +211,11 @@ p {
 .app-card-buslik .app-links a {
   border-color: rgba(255, 122, 89, 0.78);
   color: #ffb39c;
+}
+
+.app-card-suzorje .app-links a {
+  border-color: rgba(114, 216, 255, 0.72);
+  color: #d8f5ff;
 }
 
 .document {
