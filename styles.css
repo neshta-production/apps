@@ -138,6 +138,13 @@ p {
     rgba(24, 22, 52, 0.86);
 }
 
+.app-card-pole-memov {
+  background:
+    radial-gradient(circle at 18% 0%, rgba(255, 216, 91, 0.2), transparent 16rem),
+    radial-gradient(circle at 92% 100%, rgba(89, 189, 209, 0.18), transparent 18rem),
+    rgba(17, 64, 76, 0.88);
+}
+
 .icon-frame {
   width: 96px;
   height: 96px;
@@ -188,6 +195,10 @@ p {
   color: #72d8ff;
 }
 
+.app-card-pole-memov .app-label {
+  color: #ffe16a;
+}
+
 .app-links {
   display: flex;
   flex-wrap: wrap;
@@ -216,6 +227,11 @@ p {
 .app-card-suzorje .app-links a {
   border-color: rgba(114, 216, 255, 0.72);
   color: #d8f5ff;
+}
+
+.app-card-pole-memov .app-links a {
+  border-color: rgba(255, 225, 106, 0.72);
+  color: #fff2ad;
 }
 
 .document {
