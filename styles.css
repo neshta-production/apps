@@ -145,6 +145,13 @@ p {
     rgba(17, 64, 76, 0.88);
 }
 
+.app-card-calendout {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(70, 173, 255, 0.22), transparent 16rem),
+    radial-gradient(circle at 92% 100%, rgba(255, 85, 105, 0.14), transparent 18rem),
+    rgba(8, 35, 74, 0.9);
+}
+
 .icon-frame {
   width: 96px;
   height: 96px;
@@ -199,6 +206,10 @@ p {
   color: #ffe16a;
 }
 
+.app-card-calendout .app-label {
+  color: #78d7ff;
+}
+
 .app-links {
   display: flex;
   flex-wrap: wrap;
@@ -232,6 +243,11 @@ p {
 .app-card-pole-memov .app-links a {
   border-color: rgba(255, 225, 106, 0.72);
   color: #fff2ad;
+}
+
+.app-card-calendout .app-links a {
+  border-color: rgba(120, 215, 255, 0.72);
+  color: #d9f6ff;
 }
 
 .document {
