@@ -152,6 +152,13 @@ p {
     rgba(8, 35, 74, 0.9);
 }
 
+.app-card-dancehall {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(197, 24, 68, 0.28), transparent 18rem),
+    radial-gradient(circle at 96% 100%, rgba(99, 4, 31, 0.34), transparent 20rem),
+    rgba(35, 8, 20, 0.9);
+}
+
 .icon-frame {
   width: 96px;
   height: 96px;
@@ -210,6 +217,10 @@ p {
   color: #78d7ff;
 }
 
+.app-card-dancehall .app-label {
+  color: #ff8ca8;
+}
+
 .app-links {
   display: flex;
   flex-wrap: wrap;
@@ -248,6 +259,11 @@ p {
 .app-card-calendout .app-links a {
   border-color: rgba(120, 215, 255, 0.72);
   color: #d9f6ff;
+}
+
+.app-card-dancehall .app-links a {
+  border-color: rgba(255, 96, 135, 0.72);
+  color: #ffd5df;
 }
 
 .document {
