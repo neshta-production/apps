@@ -131,11 +131,10 @@ p {
   background: rgba(28, 23, 30, 0.82);
 }
 
-.app-card-suzorje {
+.app-card-inner-mirror {
   background:
-    radial-gradient(circle at 10% 0%, rgba(80, 213, 255, 0.18), transparent 16rem),
-    radial-gradient(circle at 90% 100%, rgba(239, 76, 167, 0.18), transparent 18rem),
-    rgba(24, 22, 52, 0.86);
+    radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.1), transparent 18rem),
+    rgba(2, 2, 3, 0.94);
 }
 
 .app-card-pole-memov {
@@ -205,8 +204,8 @@ p {
   color: #ffb39c;
 }
 
-.app-card-suzorje .app-label {
-  color: #72d8ff;
+.app-card-inner-mirror .app-label {
+  color: #ffffff;
 }
 
 .app-card-pole-memov .app-label {
@@ -246,9 +245,9 @@ p {
   color: #ffb39c;
 }
 
-.app-card-suzorje .app-links a {
-  border-color: rgba(114, 216, 255, 0.72);
-  color: #d8f5ff;
+.app-card-inner-mirror .app-links a {
+  border-color: rgba(255, 255, 255, 0.72);
+  color: #ffffff;
 }
 
 .app-card-pole-memov .app-links a {
