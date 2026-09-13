@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050407">
+  <meta name="description" content="Inner Mirror — приложение для саморефлексии с символическими образами, картами и персональными интерпретациями.">
+  <meta property="og:title" content="Inner Mirror — зеркало мыслей и судьбы">
+  <meta property="og:description" content="Задайте вопрос, прислушайтесь к себе и откройте новый взгляд на ситуацию.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neshta-production.github.io/apps/inner_mirror_app/">
+  <meta property="og:image" content="https://neshta-production.github.io/apps/inner_mirror_app/assets/app-icon.png">
+  <title>Inner Mirror — зеркало мыслей и судьбы</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"MobileApplication","name":"Inner Mirror","applicationCategory":"LifestyleApplication","operatingSystem":"iOS 18.2 or later","url":"https://apps.apple.com/app/id6802068774","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Inner Mirror">
+      <img src="assets/app-icon.png" alt="Inner Mirror">
+      <span>INNER MIRROR</span>
+    </a>
+    <nav class="nav" aria-label="Навигация">
+      <a href="#about" data-i18n="navAbout">Возможности</a>
+      <a href="#how" data-i18n="navHow">Как это работает</a>
+      <a href="#articles" data-i18n="navArticles">Статьи</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only" data-i18n="languageLabel">Язык</span>
+      <select id="language" aria-label="Выбрать язык">
+        <option value="ru">Русский</option>
+        <option value="en">English</option>
+        <option value="be">Беларуская</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="da">Dansk</option>
+        <option value="no">Norsk</option>
+        <option value="sv">Svenska</option>
+        <option value="zh">中文</option>
+      </select>
+    </label>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroKicker">Личный диалог с внутренним миром</p>
+        <h1 data-i18n-html="heroTitle">Ответ может быть <em>ближе,</em> чем кажется</h1>
+        <p class="hero-text" data-i18n="heroText">Inner Mirror соединяет символические образы, интуицию и искусственный интеллект, чтобы помочь вам услышать себя и посмотреть на ситуацию с новой стороны.</p>
+        <div class="hero-actions">
+          <a class="app-store-button" href="https://apps.apple.com/app/id6802068774">
+            <span class="apple" aria-hidden="true"></span>
+            <span><small data-i18n="downloadOn">Загрузите в</small><strong>App Store</strong></span>
+          </a>
+          <span class="first-free" data-i18n="firstFree">Первый вопрос — бесплатно</span>
+        </div>
+      </div>
+
+      <div class="card-stage" aria-label="Карты с котиками из Inner Mirror" data-i18n-aria="cardsLabel">
+        <img class="tarot-card card-left" src="assets/high-priestess.png" alt="Верховная Жрица" data-i18n-alt="cardPriestess">
+        <img class="tarot-card card-center" src="assets/lovers.png" alt="Влюблённые" data-i18n-alt="cardLovers">
+        <img class="tarot-card card-right" src="assets/moon.png" alt="Луна" data-i18n-alt="cardMoon">
+        <span class="spark spark-one">✦</span>
+        <span class="spark spark-two">✧</span>
+      </div>
+    </section>
+
+    <section class="store-facts" aria-label="Информация App Store" data-i18n-aria="factsLabel">
+      <div><strong data-i18n="factPlatform">Для iPhone</strong><span>iOS 18.2+</span></div>
+      <div><strong data-i18n="factCategory">Образ жизни</strong><span data-i18n="factCategoryLabel">Категория</span></div>
+      <div><strong>9+</strong><span data-i18n="factAge">Возраст</span></div>
+      <div><strong data-i18n="factFree">Бесплатно</strong><span data-i18n="factIap">Встроенные покупки</span></div>
+    </section>
+
+    <section id="about" class="content-section section-shell">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutKicker">Зеркало, которое не судит</p>
+        <h2 data-i18n="aboutTitle">Пространство для честного разговора с собой</h2>
+        <p data-i18n="aboutIntro">Вопросы, символы и спокойные подсказки помогают назвать чувства, заметить внутренние противоречия и увидеть несколько возможных направлений.</p>
+      </div>
+      <div class="feature-grid">
+        <article><span class="feature-number">01</span><h3 data-i18n="feature1Title">Спросите о важном</h3><p data-i18n="feature1Text">От отношений и чувств до выбора, который давно откладывается.</p></article>
+        <article><span class="feature-number">02</span><h3 data-i18n="feature2Title">Выберите карты</h3><p data-i18n="feature2Text">Интуитивно откройте символы из выразительных колод, включая карты с котиками.</p></article>
+        <article><span class="feature-number">03</span><h3 data-i18n="feature3Title">Получите интерпретацию</h3><p data-i18n="feature3Text">Искусственный интеллект связывает вопрос и образы в короткий ответ на выбранном языке.</p></article>
+        <article><span class="feature-number">04</span><h3 data-i18n="feature4Title">Сохраните открытия</h3><p data-i18n="feature4Text">История раскладов и саморефлексий помогает возвращаться к важным мыслям.</p></article>
+      </div>
+    </section>
+
+    <section class="manifesto section-shell">
+      <div class="manifesto-art" aria-hidden="true">
+        <img src="assets/star.png" alt="">
+        <img src="assets/wheel-of-fortune.png" alt="">
+        <img src="assets/sun.png" alt="">
+      </div>
+      <div class="manifesto-copy">
+        <p class="eyebrow" data-i18n="manifestoKicker">Не готовый приговор</p>
+        <h2 data-i18n="manifestoTitle">Карты не определяют вашу судьбу</h2>
+        <p data-i18n="manifestoText1">Inner Mirror не обещает точных предсказаний и не решает за вас. Символы работают как зеркало: отражают темы, эмоции и вопросы, которые уже присутствуют внутри.</p>
+        <p data-i18n="manifestoText2">Вы сохраняете свободу выбора. Используйте интерпретацию как повод остановиться, проверить ощущения и принять собственное решение.</p>
+      </div>
+    </section>
+
+    <section id="how" class="content-section section-shell how-section">
+      <div class="section-heading compact">
+        <p class="eyebrow" data-i18n="howKicker">Три спокойных шага</p>
+        <h2 data-i18n="howTitle">Как проходит сессия</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><h3 data-i18n="step1Title">Сформулируйте вопрос</h3><p data-i18n="step1Text">Лучше спросить о своих чувствах, возможностях и действиях, а не требовать однозначного «да» или «нет».</p></div></li>
+        <li><span>2</span><div><h3 data-i18n="step2Title">Прислушайтесь к выбору</h3><p data-i18n="step2Text">Выберите тему, колоду и карты без спешки — здесь нет неправильного выбора.</p></div></li>
+        <li><span>3</span><div><h3 data-i18n="step3Title">Сравните ответ с собой</h3><p data-i18n="step3Text">Заметьте, что откликается, что вызывает сопротивление и какой следующий шаг кажется честным.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="articles" class="content-section section-shell articles-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="articlesKicker">Читать и размышлять</p>
+        <h2 data-i18n="articlesTitle">Таро как инструмент саморефлексии</h2>
+        <p data-i18n="articlesIntro">Три коротких материала о том, как обращаться к символам бережно, осознанно и без идеи предопределённого будущего.</p>
+      </div>
+      <div class="article-list">
+        <article>
+          <div class="article-meta"><span>01</span><span data-i18n="readTime">3 минуты</span></div>
+          <h3 data-i18n="article1Title">Почему образы помогают услышать себя</h3>
+          <p data-i18n="article1Text1">Необычный образ нарушает привычный ход мыслей. Рассматривая карту, мы начинаем замечать собственные ассоциации: надежду, тревогу, конфликт или желание перемен.</p>
+          <p data-i18n="article1Text2">Ценность не в единственно верной расшифровке, а в вопросах, которые появляются. Что именно привлекло внимание? Как это связано с текущей ситуацией? Такой диалог превращает карту в начало размышления.</p>
+        </article>
+        <article>
+          <div class="article-meta"><span>02</span><span data-i18n="readTime">3 минуты</span></div>
+          <h3 data-i18n="article2Title">Почему таро не показывает точную судьбу</h3>
+          <p data-i18n="article2Text1">Будущее зависит от множества решений, обстоятельств и людей. Ни одна карта не может надёжно сообщить, что обязательно произойдёт или что чувствует другой человек.</p>
+          <p data-i18n="article2Text2">Зато символический расклад может показать возможные сценарии и ваше отношение к ним. Это приглашение подумать, а не инструкция. Решение и ответственность всегда остаются у вас.</p>
+        </article>
+        <article>
+          <div class="article-meta"><span>03</span><span data-i18n="readTime">3 минуты</span></div>
+          <h3 data-i18n="article3Title">Как задавать вопросы, которые действительно помогают</h3>
+          <p data-i18n="article3Text1">Полезный вопрос возвращает внимание к тому, на что вы можете повлиять. Вместо «Будем ли мы вместе?» попробуйте: «Что мне важно понять об этих отношениях?»</p>
+          <p data-i18n="article3Text2">Вместо «Что произойдёт?» спросите: «Какие возможности и риски я сейчас не замечаю?» Открытая формулировка оставляет место для выбора и делает рефлексию практичной.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="safety section-shell">
+      <div><p class="eyebrow" data-i18n="safetyKicker">Важно помнить</p><h2 data-i18n="safetyTitle">Для размышления и развлечения</h2></div>
+      <p data-i18n="safetyText">Inner Mirror не заменяет медицинскую, психологическую, юридическую или финансовую помощь. Не основывайте важные решения только на интерпретации карт. Если ситуация влияет на здоровье или безопасность, обратитесь к квалифицированному специалисту.</p>
+    </section>
+
+    <section class="final-cta section-shell">
+      <img src="assets/app-icon.png" alt="Inner Mirror">
+      <p class="eyebrow">Inner Mirror</p>
+      <h2 data-i18n="ctaTitle">Иногда достаточно одного честного вопроса</h2>
+      <p data-i18n="ctaText">Скачайте приложение для iPhone и начните первую сессию бесплатно.</p>
+      <a class="app-store-button" href="https://apps.apple.com/app/id6802068774">
+        <span class="apple" aria-hidden="true"></span>
+        <span><small data-i18n="downloadOn">Загрузите в</small><strong>App Store</strong></span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Inner Mirror</span>
+      <div>
+        <a href="../inner_mirror/privacy_policy/" data-i18n="privacy">Конфиденциальность</a>
+        <a href="../inner_mirror/terms_of_use/" data-i18n="terms">Условия использования</a>
+        <a href="../inner_mirror/support/" data-i18n="support">Поддержка</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
