@@ -162,6 +162,37 @@ p {
   background: rgba(7, 54, 39, 0.9);
 }
 
+.app-card-belarus {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(177, 207, 143, 0.2), transparent 18rem),
+    rgba(18, 48, 39, 0.94);
+}
+
+.app-card-belarus .app-label,
+.app-card-belarus .app-links a {
+  color: #d9ebbd;
+}
+
+.app-card-belarus .app-links a {
+  border-color: rgba(217, 235, 189, 0.65);
+}
+
+.belarus-document {
+  --accent: #bfe2bf;
+  --accent-strong: #32765e;
+  overflow-wrap: anywhere;
+}
+
+.belarus-document .actions {
+  margin-bottom: 28px;
+}
+
+.belarus-document h1 {
+  font-size: clamp(28px, 6vw, 52px);
+  line-height: 1.12;
+  hyphens: auto;
+}
+
 .app-card-planguard .app-label,
 .app-card-planguard .app-links a {
   color: #8ee8bd;
