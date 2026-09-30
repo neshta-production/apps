@@ -168,6 +168,22 @@ p {
     rgba(18, 48, 39, 0.94);
 }
 
+.app-card-aquatale {
+  background:
+    radial-gradient(circle at 8% 0%, rgba(15, 148, 171, 0.34), transparent 18rem),
+    radial-gradient(circle at 100% 100%, rgba(255, 126, 76, 0.14), transparent 20rem),
+    rgba(7, 49, 63, 0.94);
+}
+
+.app-card-aquatale .app-label,
+.app-card-aquatale .app-links a {
+  color: #9cebf0;
+}
+
+.app-card-aquatale .app-links a {
+  border-color: rgba(156, 235, 240, 0.68);
+}
+
 .app-card-belarus .app-label,
 .app-card-belarus .app-links a {
   color: #d9ebbd;
@@ -181,6 +197,15 @@ p {
   --accent: #bfe2bf;
   --accent-strong: #32765e;
   overflow-wrap: anywhere;
+}
+
+.aquatale-document {
+  --accent: #9cebf0;
+  --accent-strong: #0f94ab;
+  border-color: rgba(156, 235, 240, 0.24);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(15, 148, 171, 0.16), transparent 22rem),
+    rgba(7, 35, 47, 0.88);
 }
 
 .belarus-document .actions {
