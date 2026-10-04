@@ -114,6 +114,65 @@ p {
   padding-top: 28px;
 }
 
+.catalog-section {
+  margin-top: 52px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.section-heading {
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 0 0 10px;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.08;
+}
+
+.section-lede {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.book-card {
+  min-height: 264px;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(111, 190, 205, 0.22), transparent 18rem),
+    radial-gradient(circle at 100% 100%, rgba(125, 91, 170, 0.2), transparent 22rem),
+    rgba(8, 28, 37, 0.94);
+}
+
+.book-card .app-label,
+.book-card .app-links a {
+  color: #b9eef2;
+}
+
+.book-card .app-links a {
+  border-color: rgba(185, 238, 242, 0.62);
+}
+
+.book-card .download-link {
+  color: #07171d;
+  border-color: #b9eef2;
+  background: #b9eef2;
+}
+
+.book-icon-frame {
+  border-radius: 18px;
+}
+
+.book-icon {
+  border-radius: 13px;
+  object-position: center top;
+}
+
 .app-card {
   display: grid;
   grid-template-columns: 96px 1fr;
@@ -377,6 +436,11 @@ p {
 
   .apps-grid {
     grid-template-columns: 1fr;
+  }
+
+  .catalog-section {
+    margin-top: 36px;
+    padding-top: 30px;
   }
 
   .app-card {
