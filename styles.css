@@ -158,12 +158,6 @@ p {
   border-color: rgba(185, 238, 242, 0.62);
 }
 
-.book-card .download-link {
-  color: #07171d;
-  border-color: #b9eef2;
-  background: #b9eef2;
-}
-
 .book-icon-frame {
   border-radius: 18px;
 }
