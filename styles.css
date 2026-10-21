@@ -211,6 +211,31 @@ p {
     rgba(35, 8, 20, 0.9);
 }
 
+.app-card-kalyhanka {
+  background:
+    radial-gradient(circle at 8% 0%, rgba(248, 194, 100, 0.24), transparent 18rem),
+    radial-gradient(circle at 100% 100%, rgba(38, 100, 121, 0.24), transparent 20rem),
+    rgba(8, 29, 48, 0.94);
+}
+
+.app-card-kalyhanka .app-label,
+.app-card-kalyhanka .app-links a {
+  color: #f8d58f;
+}
+
+.app-card-kalyhanka .app-links a {
+  border-color: rgba(248, 213, 143, 0.68);
+}
+
+.kalyhanka-document {
+  --accent: #f8d58f;
+  --accent-strong: #b77728;
+  border-color: rgba(248, 213, 143, 0.24);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(38, 100, 121, 0.18), transparent 22rem),
+    rgba(8, 29, 48, 0.9);
+}
+
 .app-card-planguard {
   background: rgba(7, 54, 39, 0.9);
 }
